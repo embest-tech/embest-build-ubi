@@ -32,7 +32,7 @@ popd 2>&1 >/dev/null
 MKFSUBI=$HOME/tools/mkfs.ubifs
 MKFSUBI_ARG="-r ${ROOT_DIR} -m 2048 -e 126976 -c 4063 -o temp/ubifs.img"
 UBINIZE=$HOME/tools/ubinize
-UBINIZECFG=$HOME/tools/ubinize_256.cfg
+UBINIZECFG=$HOME/tools/ubinize.cfg
 UBINIZE_ARG="-o ubi.img -m 2048 -p 128KiB -s 512 -O 2048 ${UBINIZECFG}"
 
 #set -x
